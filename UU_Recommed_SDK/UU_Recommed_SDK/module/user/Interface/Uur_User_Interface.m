@@ -1,13 +1,13 @@
 //
-//  UU_Recommed_SDK.m
+//  Uur_User_Interface.m
 //  UU_Recommed_SDK
 //
 //  Created by Jiang Lou on 2017/7/6.
 //  Copyright © 2017年 Jiang Lou. All rights reserved.
 //
 
-#import "UU_Recommed_SDK.h"
+#import "Uur_User_Interface.h"
 
-@implementation UU_Recommed_SDK
+@implementation Uur_User_Interface
 
 @end
