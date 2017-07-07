@@ -7,8 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE27F22B1F0DE9A900FB1F9F /* UU_Recommed_SDK.m in Sources */ = {isa = PBXBuildFile; fileRef = EE27F22A1F0DE9A900FB1F9F /* UU_Recommed_SDK.m */; };
-		EE27F22C1F0DE9A900FB1F9F /* UU_Recommed_SDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE27F2291F0DE9A900FB1F9F /* UU_Recommed_SDK.h */; };
+		2919DA9D9F0357950DE06D78 /* libPods-UU_Recommed_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB8DB26E946B557D7530C7 /* libPods-UU_Recommed_SDK.a */; };
+		EE2F75BD1F0E694B00A39F6D /* Uur_User_Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75BC1F0E694B00A39F6D /* Uur_User_Interface.m */; };
+		EE2F75C31F0E6A0800A39F6D /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75C21F0E6A0800A39F6D /* GTMBase64.m */; };
+		EE2F75C61F0E6A4500A39F6D /* LEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75C51F0E6A4500A39F6D /* LEncrypt.m */; };
+		EE2F75C91F0E6AEE00A39F6D /* Uur_HttpRequestConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75C81F0E6AEE00A39F6D /* Uur_HttpRequestConstants.m */; };
+		EE2F75CC1F0E878F00A39F6D /* Uur_RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75CB1F0E878F00A39F6D /* Uur_RequestTool.m */; };
+		EE2F75D41F0E884800A39F6D /* Uur_mdoel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75D31F0E884800A39F6D /* Uur_mdoel.m */; };
+		EE2F75DA1F0F14DC00A39F6D /* Uur_CommonConstans.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75D91F0F14DC00A39F6D /* Uur_CommonConstans.m */; };
+		EE2F75DD1F0F1BB100A39F6D /* Uur_User.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75DC1F0F1BB100A39F6D /* Uur_User.m */; };
+		EE2F75E01F0F1C3300A39F6D /* Uur_UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75DF1F0F1C3300A39F6D /* Uur_UserManager.m */; };
+		EE2F75E41F0F1E0F00A39F6D /* Uur_DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75E31F0F1E0F00A39F6D /* Uur_DBManager.m */; };
+		EE2F75E81F0F2F0000A39F6D /* NSObject+UUR_Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75E71F0F2F0000A39F6D /* NSObject+UUR_Utils.m */; };
+		EE2F75F51F0F3A9B00A39F6D /* UurKeyChainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75F41F0F3A9B00A39F6D /* UurKeyChainDataManager.m */; };
+		EE2F75F81F0F3AE000A39F6D /* UurKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75F71F0F3AE000A39F6D /* UurKeyChain.m */; };
+		EE2F75F91F0F59F600A39F6D /* Uur_User_Interface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75BB1F0E694B00A39F6D /* Uur_User_Interface.h */; };
+		EE2F76001F0F5DF900A39F6D /* Uur_User.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75DB1F0F1BB100A39F6D /* Uur_User.h */; };
+		EE2F76011F0F5E0100A39F6D /* Uur_DBManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75E21F0F1E0F00A39F6D /* Uur_DBManager.h */; };
+		EE2F76021F0F5E0C00A39F6D /* Uur_CommonConstans.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75D81F0F14DC00A39F6D /* Uur_CommonConstans.h */; };
+		EE2F76031F0F5E1B00A39F6D /* UUr_Http_Block.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75FF1F0F5AD500A39F6D /* UUr_Http_Block.h */; };
+		EE2F76181F0F5FA100A39F6D /* Uur_mdoel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE2F75D21F0E884800A39F6D /* Uur_mdoel.h */; };
+		EE2F76511F0F86D900A39F6D /* UIDevice+MacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75EB1F0F2FEE00A39F6D /* UIDevice+MacAddress.m */; };
+		EE2F76521F0F86DF00A39F6D /* UIDevice+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F75EE1F0F2FEE00A39F6D /* UIDevice+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +38,54 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EE27F22C1F0DE9A900FB1F9F /* UU_Recommed_SDK.h in CopyFiles */,
+				EE2F76181F0F5FA100A39F6D /* Uur_mdoel.h in CopyFiles */,
+				EE2F76031F0F5E1B00A39F6D /* UUr_Http_Block.h in CopyFiles */,
+				EE2F76021F0F5E0C00A39F6D /* Uur_CommonConstans.h in CopyFiles */,
+				EE2F76011F0F5E0100A39F6D /* Uur_DBManager.h in CopyFiles */,
+				EE2F76001F0F5DF900A39F6D /* Uur_User.h in CopyFiles */,
+				EE2F75F91F0F59F600A39F6D /* Uur_User_Interface.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		828E87F48D94B87E4DF2669F /* Pods-UU_Recommed_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UU_Recommed_SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-UU_Recommed_SDK/Pods-UU_Recommed_SDK.release.xcconfig"; sourceTree = "<group>"; };
+		B64F0CD021A757C1C1261918 /* Pods-UU_Recommed_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UU_Recommed_SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UU_Recommed_SDK/Pods-UU_Recommed_SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		BECB8DB26E946B557D7530C7 /* libPods-UU_Recommed_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UU_Recommed_SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE27F2261F0DE9A900FB1F9F /* libUU_Recommed_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUU_Recommed_SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE27F2291F0DE9A900FB1F9F /* UU_Recommed_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UU_Recommed_SDK.h; sourceTree = "<group>"; };
-		EE27F22A1F0DE9A900FB1F9F /* UU_Recommed_SDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UU_Recommed_SDK.m; sourceTree = "<group>"; };
+		EE2F75BB1F0E694B00A39F6D /* Uur_User_Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_User_Interface.h; sourceTree = "<group>"; };
+		EE2F75BC1F0E694B00A39F6D /* Uur_User_Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_User_Interface.m; sourceTree = "<group>"; };
+		EE2F75C01F0E69E500A39F6D /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		EE2F75C11F0E6A0800A39F6D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		EE2F75C21F0E6A0800A39F6D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		EE2F75C41F0E6A4500A39F6D /* LEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEncrypt.h; sourceTree = "<group>"; };
+		EE2F75C51F0E6A4500A39F6D /* LEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEncrypt.m; sourceTree = "<group>"; };
+		EE2F75C71F0E6AEE00A39F6D /* Uur_HttpRequestConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_HttpRequestConstants.h; sourceTree = "<group>"; };
+		EE2F75C81F0E6AEE00A39F6D /* Uur_HttpRequestConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_HttpRequestConstants.m; sourceTree = "<group>"; };
+		EE2F75CA1F0E878F00A39F6D /* Uur_RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_RequestTool.h; sourceTree = "<group>"; };
+		EE2F75CB1F0E878F00A39F6D /* Uur_RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = Uur_RequestTool.m; sourceTree = "<group>"; };
+		EE2F75D21F0E884800A39F6D /* Uur_mdoel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_mdoel.h; sourceTree = "<group>"; };
+		EE2F75D31F0E884800A39F6D /* Uur_mdoel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_mdoel.m; sourceTree = "<group>"; };
+		EE2F75D81F0F14DC00A39F6D /* Uur_CommonConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_CommonConstans.h; sourceTree = "<group>"; };
+		EE2F75D91F0F14DC00A39F6D /* Uur_CommonConstans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_CommonConstans.m; sourceTree = "<group>"; };
+		EE2F75DB1F0F1BB100A39F6D /* Uur_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_User.h; sourceTree = "<group>"; };
+		EE2F75DC1F0F1BB100A39F6D /* Uur_User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_User.m; sourceTree = "<group>"; };
+		EE2F75DE1F0F1C3300A39F6D /* Uur_UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_UserManager.h; sourceTree = "<group>"; };
+		EE2F75DF1F0F1C3300A39F6D /* Uur_UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_UserManager.m; sourceTree = "<group>"; };
+		EE2F75E21F0F1E0F00A39F6D /* Uur_DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uur_DBManager.h; sourceTree = "<group>"; };
+		EE2F75E31F0F1E0F00A39F6D /* Uur_DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uur_DBManager.m; sourceTree = "<group>"; };
+		EE2F75E61F0F2F0000A39F6D /* NSObject+UUR_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UUR_Utils.h"; sourceTree = "<group>"; };
+		EE2F75E71F0F2F0000A39F6D /* NSObject+UUR_Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UUR_Utils.m"; sourceTree = "<group>"; };
+		EE2F75EA1F0F2FEE00A39F6D /* UIDevice+MacAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+MacAddress.h"; sourceTree = "<group>"; };
+		EE2F75EB1F0F2FEE00A39F6D /* UIDevice+MacAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MacAddress.m"; sourceTree = "<group>"; };
+		EE2F75ED1F0F2FEE00A39F6D /* UIDevice+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Util.h"; sourceTree = "<group>"; };
+		EE2F75EE1F0F2FEE00A39F6D /* UIDevice+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Util.m"; sourceTree = "<group>"; };
+		EE2F75F31F0F3A9B00A39F6D /* UurKeyChainDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UurKeyChainDataManager.h; sourceTree = "<group>"; };
+		EE2F75F41F0F3A9B00A39F6D /* UurKeyChainDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UurKeyChainDataManager.m; sourceTree = "<group>"; };
+		EE2F75F61F0F3AE000A39F6D /* UurKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UurKeyChain.h; sourceTree = "<group>"; };
+		EE2F75F71F0F3AE000A39F6D /* UurKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UurKeyChain.m; sourceTree = "<group>"; };
+		EE2F75FF1F0F5AD500A39F6D /* UUr_Http_Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUr_Http_Block.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +93,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2919DA9D9F0357950DE06D78 /* libPods-UU_Recommed_SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261DB0221623BB8153A17DDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64F0CD021A757C1C1261918 /* Pods-UU_Recommed_SDK.debug.xcconfig */,
+				828E87F48D94B87E4DF2669F /* Pods-UU_Recommed_SDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE27F21D1F0DE9A900FB1F9F = {
 			isa = PBXGroup;
 			children = (
 				EE27F2281F0DE9A900FB1F9F /* UU_Recommed_SDK */,
 				EE27F2271F0DE9A900FB1F9F /* Products */,
+				261DB0221623BB8153A17DDD /* Pods */,
+				EF2CFB05AAEC22BFC2D9B08B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,22 +130,185 @@
 		EE27F2281F0DE9A900FB1F9F /* UU_Recommed_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				EE27F2291F0DE9A900FB1F9F /* UU_Recommed_SDK.h */,
-				EE27F22A1F0DE9A900FB1F9F /* UU_Recommed_SDK.m */,
+				EE2F75B41F0E68B700A39F6D /* Utils */,
+				EE2F75B31F0E68AD00A39F6D /* module */,
+				EE2F75B21F0E689C00A39F6D /* lib */,
 			);
 			path = UU_Recommed_SDK;
 			sourceTree = "<group>";
 		};
+		EE2F75B21F0E689C00A39F6D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EE2F75B31F0E68AD00A39F6D /* module */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75CD1F0E87DA00A39F6D /* base */,
+				EE2F75B71F0E68DD00A39F6D /* user */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		EE2F75B41F0E68B700A39F6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75EF1F0F3A6B00A39F6D /* UurkeyChainHelper */,
+				EE2F75E51F0F2EEA00A39F6D /* Category */,
+				EE2F75E11F0F1DBA00A39F6D /* Manager */,
+				EE2F75BE1F0E697500A39F6D /* NetWork */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EE2F75B71F0E68DD00A39F6D /* user */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75BA1F0E690A00A39F6D /* Interface */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		EE2F75BA1F0E690A00A39F6D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75BB1F0E694B00A39F6D /* Uur_User_Interface.h */,
+				EE2F75BC1F0E694B00A39F6D /* Uur_User_Interface.m */,
+				EE2F75FF1F0F5AD500A39F6D /* UUr_Http_Block.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		EE2F75BE1F0E697500A39F6D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75BF1F0E69D000A39F6D /* Encrypt */,
+				EE2F75C71F0E6AEE00A39F6D /* Uur_HttpRequestConstants.h */,
+				EE2F75C81F0E6AEE00A39F6D /* Uur_HttpRequestConstants.m */,
+				EE2F75CA1F0E878F00A39F6D /* Uur_RequestTool.h */,
+				EE2F75CB1F0E878F00A39F6D /* Uur_RequestTool.m */,
+				EE2F75D81F0F14DC00A39F6D /* Uur_CommonConstans.h */,
+				EE2F75D91F0F14DC00A39F6D /* Uur_CommonConstans.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		EE2F75BF1F0E69D000A39F6D /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75C01F0E69E500A39F6D /* GTMDefines.h */,
+				EE2F75C11F0E6A0800A39F6D /* GTMBase64.h */,
+				EE2F75C21F0E6A0800A39F6D /* GTMBase64.m */,
+				EE2F75C41F0E6A4500A39F6D /* LEncrypt.h */,
+				EE2F75C51F0E6A4500A39F6D /* LEncrypt.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		EE2F75CD1F0E87DA00A39F6D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75CE1F0E87E700A39F6D /* model */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		EE2F75CE1F0E87E700A39F6D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75D21F0E884800A39F6D /* Uur_mdoel.h */,
+				EE2F75D31F0E884800A39F6D /* Uur_mdoel.m */,
+				EE2F75DB1F0F1BB100A39F6D /* Uur_User.h */,
+				EE2F75DC1F0F1BB100A39F6D /* Uur_User.m */,
+				EE2F75DE1F0F1C3300A39F6D /* Uur_UserManager.h */,
+				EE2F75DF1F0F1C3300A39F6D /* Uur_UserManager.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EE2F75E11F0F1DBA00A39F6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75E21F0F1E0F00A39F6D /* Uur_DBManager.h */,
+				EE2F75E31F0F1E0F00A39F6D /* Uur_DBManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE2F75E51F0F2EEA00A39F6D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75E91F0F2FEE00A39F6D /* UIDevice+MacAddress */,
+				EE2F75EC1F0F2FEE00A39F6D /* UIDevice+Util */,
+				EE2F75E61F0F2F0000A39F6D /* NSObject+UUR_Utils.h */,
+				EE2F75E71F0F2F0000A39F6D /* NSObject+UUR_Utils.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EE2F75E91F0F2FEE00A39F6D /* UIDevice+MacAddress */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75EA1F0F2FEE00A39F6D /* UIDevice+MacAddress.h */,
+				EE2F75EB1F0F2FEE00A39F6D /* UIDevice+MacAddress.m */,
+			);
+			path = "UIDevice+MacAddress";
+			sourceTree = "<group>";
+		};
+		EE2F75EC1F0F2FEE00A39F6D /* UIDevice+Util */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75ED1F0F2FEE00A39F6D /* UIDevice+Util.h */,
+				EE2F75EE1F0F2FEE00A39F6D /* UIDevice+Util.m */,
+			);
+			path = "UIDevice+Util";
+			sourceTree = "<group>";
+		};
+		EE2F75EF1F0F3A6B00A39F6D /* UurkeyChainHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F75F31F0F3A9B00A39F6D /* UurKeyChainDataManager.h */,
+				EE2F75F41F0F3A9B00A39F6D /* UurKeyChainDataManager.m */,
+				EE2F75F61F0F3AE000A39F6D /* UurKeyChain.h */,
+				EE2F75F71F0F3AE000A39F6D /* UurKeyChain.m */,
+			);
+			path = UurkeyChainHelper;
+			sourceTree = "<group>";
+		};
+		EF2CFB05AAEC22BFC2D9B08B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECB8DB26E946B557D7530C7 /* libPods-UU_Recommed_SDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE2F762F1F0F84E800A39F6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		EE27F2251F0DE9A900FB1F9F /* UU_Recommed_SDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE27F22F1F0DE9A900FB1F9F /* Build configuration list for PBXNativeTarget "UU_Recommed_SDK" */;
 			buildPhases = (
+				09C8AC975EEFD40917F52426 /* [CP] Check Pods Manifest.lock */,
 				EE27F2221F0DE9A900FB1F9F /* Sources */,
 				EE27F2231F0DE9A900FB1F9F /* Frameworks */,
 				EE27F2241F0DE9A900FB1F9F /* CopyFiles */,
+				1CD0178C358AA7F30F9478D4 /* [CP] Copy Pods Resources */,
+				EE2F762F1F0F84E800A39F6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -119,12 +352,60 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C8AC975EEFD40917F52426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD0178C358AA7F30F9478D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UU_Recommed_SDK/Pods-UU_Recommed_SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE27F2221F0DE9A900FB1F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE27F22B1F0DE9A900FB1F9F /* UU_Recommed_SDK.m in Sources */,
+				EE2F76521F0F86DF00A39F6D /* UIDevice+Util.m in Sources */,
+				EE2F76511F0F86D900A39F6D /* UIDevice+MacAddress.m in Sources */,
+				EE2F75F51F0F3A9B00A39F6D /* UurKeyChainDataManager.m in Sources */,
+				EE2F75D41F0E884800A39F6D /* Uur_mdoel.m in Sources */,
+				EE2F75BD1F0E694B00A39F6D /* Uur_User_Interface.m in Sources */,
+				EE2F75C31F0E6A0800A39F6D /* GTMBase64.m in Sources */,
+				EE2F75E81F0F2F0000A39F6D /* NSObject+UUR_Utils.m in Sources */,
+				EE2F75C91F0E6AEE00A39F6D /* Uur_HttpRequestConstants.m in Sources */,
+				EE2F75F81F0F3AE000A39F6D /* UurKeyChain.m in Sources */,
+				EE2F75DA1F0F14DC00A39F6D /* Uur_CommonConstans.m in Sources */,
+				EE2F75C61F0E6A4500A39F6D /* LEncrypt.m in Sources */,
+				EE2F75E41F0F1E0F00A39F6D /* Uur_DBManager.m in Sources */,
+				EE2F75CC1F0E878F00A39F6D /* Uur_RequestTool.m in Sources */,
+				EE2F75DD1F0F1BB100A39F6D /* Uur_User.m in Sources */,
+				EE2F75E01F0F1C3300A39F6D /* Uur_UserManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +455,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -216,6 +497,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -223,8 +505,15 @@
 		};
 		EE27F2301F0DE9A900FB1F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64F0CD021A757C1C1261918 /* Pods-UU_Recommed_SDK.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				DEVELOPMENT_TEAM = 7CFBPT796C;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -233,8 +522,15 @@
 		};
 		EE27F2311F0DE9A900FB1F9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828E87F48D94B87E4DF2669F /* Pods-UU_Recommed_SDK.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				DEVELOPMENT_TEAM = 7CFBPT796C;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -260,6 +556,7 @@
 				EE27F2311F0DE9A900FB1F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
